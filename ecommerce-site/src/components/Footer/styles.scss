@@ -1,0 +1,152 @@
+/* This is the stylesheet for Footer folder*/
+
+// import common stylesheet library
+@import "./../../libraries/library";
+
+/*Footer*/
+.footer{
+    border-radius: 20px;
+    left: 50%;
+    right: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 40px;
+    background-color: $purple_red;
+    padding-bottom : 30px;
+    padding-top:25px;
+    padding-right: 40px;
+    display:block;
+    
+  
+    a:link, a:visited, a:active{
+      color: $off_white;
+    }
+  
+    a:hover{
+      color:$off_white;
+      text-decoration: underline;
+    }
+  
+    .delivery{
+      margin-left:40px;
+      display:block;
+  
+      .header{
+        font-family:$nunito_sans;
+        font-size:20px;
+        color:$beige;
+        display:block;
+        font-weight:900;
+      }
+      .text{
+        font-family:$roboto;
+        font-size:13px;
+        color:$off_white;
+        
+      }
+    }
+  
+    .note{
+      margin-left:40px;
+      display:block;
+  
+      .header{
+        font-family:$nunito_sans;
+        font-size:20px;
+        color:$beige;
+        display:block;
+        font-weight:900;
+  
+  
+      }
+      .text{
+        font-family:$roboto;
+        font-size:13px;
+        color:$off_white;
+      }
+    }
+  
+    .links{
+      margin-left:40px;
+      display:block;
+  
+      .header{
+        font-family:$nunito_sans;
+        font-size:20px;
+        color:$beige;
+        display:block;
+        font-weight:900;
+  
+  
+      }
+      .text{
+        font-family:$roboto;
+        font-size:13px;
+        color:$off_white;
+      }
+    }
+  
+    .signup{
+      margin-left:40px;
+      display:block;
+  
+      .header{
+        font-family:$nunito_sans;
+        font-size:20px;
+        color:$beige;
+        display:block;
+        font-weight:900;
+  
+      }
+      .text{
+        font-family:$roboto;
+        font-size:13px;
+        color:$off_white;
+        .search{
+          color:$off_white;
+        }
+      }
+      
+    }
+  
+    .contact{
+      margin-top:30px;
+      margin-left:40px;
+      display:block;
+  
+      .header{
+        font-family:$nunito_sans;
+        font-size:20px;
+        color:$beige;
+        display:block;
+        font-weight:900;
+  
+      }
+      .text{
+        font-family:$roboto;
+        font-size:13px;
+        color:$off_white;
+      }
+    }
+  
+    .customer{
+      margin-top:30px;
+      // margin-left:20px;
+      display:block;
+  
+      .header{
+        font-family:$nunito_sans;
+        font-size:20px;
+        color:$beige;
+        display:block;
+        font-weight:900;
+      }
+      .text{
+        font-family:$roboto;
+        font-size:13px;
+        color:$off_white;
+      }
+    }
+  
+  } 

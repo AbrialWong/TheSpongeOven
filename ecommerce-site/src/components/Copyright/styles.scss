@@ -1,0 +1,22 @@
+/* This is the stylesheet for Copyright folder*/
+
+// import common stylesheet library
+@import "./../../libraries/library";
+
+.copyright{
+    font-family:$roboto;
+    margin-top:40px;
+    margin-bottom:30px;
+    text-align:center;
+    color:$purple_red;
+    display:block;
+    
+    a:link, a:visited, a:active{
+      color: $purple_red;
+    }
+  
+    a:hover{
+      color:grey;
+      text-decoration: none;
+    }
+  }

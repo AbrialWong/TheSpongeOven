@@ -1,0 +1,342 @@
+/* This stylesheet will contain all the Navbar css here*/
+@import "./../../../libraries/library";
+
+/*---------------------------Navbar------------------------*/
+.navbar {
+  background-color: $greyish-green;
+
+  /*---Search--*/
+  .form-control {
+    font-size: 15px;
+    height: 20%;
+
+  }
+
+  /*---Account--*/
+  .account {
+    background-color: $greyish_green;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /*---Account (Dropdown-menu)--*/
+  .dropdown-menu {
+    background-color: $greyish_green;
+      a {
+        color: white;
+        padding-left: 15px;
+        }
+  }
+
+  /*---Cart--*/
+  .cart {
+    background-color: $greyish_green;
+    border: none;
+  }
+}
+/*---------------------------Navbar------------------------*/
+
+// /* --------------------------Logo--------------------------*/
+// .logo {
+//   width: 15%;
+//   height: auto;
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-top: 10px;
+// }
+// /* --------------------------Logo--------------------------*/
+
+/* --------------------------Slider--------------------------*/
+.slider {
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+}
+
+.box {
+  box-shadow: 2px 2px 20px lightgray;
+  border-radius: 20px;
+  left: 50%;
+  right: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  margin-top: 10px;
+  background-color: $purple_red;
+  
+  /*image*/
+    img {
+      border-radius: 20px 0 0px 20px;
+        }
+}
+
+/* Slider Description*/
+.slider-description {
+  display: block;
+  color: $beige;
+  font-family: $nunito_sans;
+  margin-top: 150px;
+
+  .header {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    display: block;
+  }
+  
+  .text1 {
+    font-size: 25px;
+    margin-left: 50px;
+    display: block;
+  }
+
+  .text2 {
+    font-size: 15px;
+    margin-top: 0;
+    margin-left: 50px;
+    display: block;
+  }
+
+  .text3 {
+    font-size: 25px;
+    margin-left: 50px;
+    display: block;
+  }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
+/*----------------------------------------------*/
+
+/*--------------------Content-------------------*/
+/*Content*/
+.content{
+  width:80%;
+  display: block;
+  left: 50%;
+  right: 50%;
+  margin-top:45px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom:20px;
+
+
+  .header{
+    left: 50%;
+    right: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+  }
+
+  .button{
+  border-radius: 20px 20px 0px 0px;
+  display:block;
+  margin-top: 20px;
+  background-color: $purple_red;
+  
+  /*image*/
+    img {
+      width:80%;
+      display:block;
+      border-radius: 20px 20px 0px 0px;
+        }
+  }
+
+  .category{
+    color: $off_white;
+    font-family: $roboto;
+    font-size: 20px;
+    text-align: center;
+    display:block;
+    margin-top:20px;
+    padding-bottom:20px;
+    margin-bottom: 20px;
+  }
+}
+hr{
+  border: 1px solid $purple_red;
+  width:80%;
+  left: 50%;
+  right: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*--------------------Content-------------------*/
+
+// /*--------------------Footer---------------------*/
+// /*Footer*/
+// .footer{
+//   border-radius: 20px;
+//   left: 50%;
+//   right: 50%;
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 80%;
+//   margin-top: 40px;
+//   background-color: $purple_red;
+//   padding-bottom : 30px;
+//   padding-top:25px;
+//   padding-right: 40px;
+//   display:block;
+  
+
+//   a:link, a:visited, a:active{
+//     color: $off_white;
+//   }
+
+//   a:hover{
+//     color:$off_white;
+//     text-decoration: underline;
+//   }
+
+//   .delivery{
+//     margin-left:40px;
+//     display:block;
+
+//     .header{
+//       font-family:$nunito_sans;
+//       font-size:20px;
+//       color:$beige;
+//       display:block;
+//       font-weight:900;
+//     }
+//     .text{
+//       font-family:$roboto;
+//       font-size:13px;
+//       color:$off_white;
+      
+//     }
+//   }
+
+//   .note{
+//     margin-left:40px;
+//     display:block;
+
+//     .header{
+//       font-family:$nunito_sans;
+//       font-size:20px;
+//       color:$beige;
+//       display:block;
+//       font-weight:900;
+
+
+//     }
+//     .text{
+//       font-family:$roboto;
+//       font-size:13px;
+//       color:$off_white;
+//     }
+//   }
+
+//   .links{
+//     margin-left:40px;
+//     display:block;
+
+//     .header{
+//       font-family:$nunito_sans;
+//       font-size:20px;
+//       color:$beige;
+//       display:block;
+//       font-weight:900;
+
+
+//     }
+//     .text{
+//       font-family:$roboto;
+//       font-size:13px;
+//       color:$off_white;
+//     }
+//   }
+
+//   .signup{
+//     margin-left:40px;
+//     display:block;
+
+//     .header{
+//       font-family:$nunito_sans;
+//       font-size:20px;
+//       color:$beige;
+//       display:block;
+//       font-weight:900;
+
+//     }
+//     .text{
+//       font-family:$roboto;
+//       font-size:13px;
+//       color:$off_white;
+//       .search{
+//         color:$off_white;
+//       }
+//     }
+    
+//   }
+
+//   .contact{
+//     margin-top:30px;
+//     margin-left:40px;
+//     display:block;
+
+//     .header{
+//       font-family:$nunito_sans;
+//       font-size:20px;
+//       color:$beige;
+//       display:block;
+//       font-weight:900;
+
+//     }
+//     .text{
+//       font-family:$roboto;
+//       font-size:13px;
+//       color:$off_white;
+//     }
+//   }
+
+//   .customer{
+//     margin-top:30px;
+//     // margin-left:20px;
+//     display:block;
+
+//     .header{
+//       font-family:$nunito_sans;
+//       font-size:20px;
+//       color:$beige;
+//       display:block;
+//       font-weight:900;
+//     }
+//     .text{
+//       font-family:$roboto;
+//       font-size:13px;
+//       color:$off_white;
+//     }
+//   }
+
+// } 
+// /*--------------------Footer---------------------*/
+
+// /*--------------------Copyright---------------------*/
+// /*Copyright*/
+// .copyright{
+//   font-family:$roboto;
+//   margin-top:40px;
+//   margin-bottom:30px;
+//   text-align:center;
+//   color:$purple_red;
+//   display:block;
+  
+//   a:link, a:visited, a:active{
+//     color: $purple_red;
+//   }
+
+//   a:hover{
+//     color:grey;
+//     text-decoration: none;
+//   }
+// }
+// /*--------------------Copyright---------------------*/
