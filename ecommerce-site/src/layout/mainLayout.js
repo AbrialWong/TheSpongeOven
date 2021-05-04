@@ -4,8 +4,6 @@ import Header from "./../components/Header/index.js";
 import Footer from "./../components/Footer/footer.js";
 import Copyright from "./../components/Copyright/copyright.js";
 
-
-
 const mainLayout = props =>{
     return (
         <div>
