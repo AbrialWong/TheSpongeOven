@@ -5,13 +5,13 @@ This is the e-commerce site for The Sponge Oven.
 
 ## Run this project
 
-<b> Step 1   : git clone/download this project</b>
+<b> Step 1   : git clone/download this project</b> <br>
 ` git clone https://github.com/AbrialWong/TheSpongeOven.git` 
 
-<b> Step 2: Download the missing dependencies</b>
+<b> Step 2: Download the missing dependencies</b><br>
 `npm install or npm i`
 
-<b> Step 3: Run the project </b>
+<b> Step 3: Run the project </b><br>
   `npm start`
 
 ## Output
