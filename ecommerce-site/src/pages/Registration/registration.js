@@ -6,7 +6,7 @@ import "./../Registration/styles.scss";
 import {Col, Row} from 'react-bootstrap';
 
 //image
-import register from "./../../asserts/register.jpg";
+import IMAGES from "./../../asserts/index.js";
 class Registration extends Component {
   render() {
     return (
@@ -24,7 +24,7 @@ class Registration extends Component {
 
       <Row>
     <Col>
-    <img src={register} alt="register" className="header"/>
+    <img src={IMAGES.register} alt="register" className="header"/>
     </Col>
     </Row>
     </div>

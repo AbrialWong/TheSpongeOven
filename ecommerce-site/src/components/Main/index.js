@@ -8,18 +8,14 @@ import "./styles.scss";
 import {Container,Col,Row} from 'react-bootstrap';
 
 // image
-import category from "./../../asserts/category.jpg";
-import carrot from "./../../asserts/carrot.jpg"; 
-import cheesecake from "./../../asserts/cheesecake.jpg"; 
-import mini from "./../../asserts/mini.jpg"; 
-import pear from "./../../asserts/pear.jpg"; 
+import IMAGES from "./../../asserts/index.js";
 
 const Main = props => {
   return (
     <div>
     <Row>
     <Col>
-    <img src={category} alt="category" className="header"/>
+    <img src={IMAGES.category} alt="category" className="header"/>
     </Col>
     </Row>
 
@@ -27,7 +23,7 @@ const Main = props => {
       <Col>
       <Link to="/bread">
       <span className="button" className="button">
-      <img src={carrot} alt="bread" className="d-block w-100"/>
+      <img src={IMAGES.carrot} alt="bread" className="d-block w-100"/>
       <span className="category">Bread</span>
       </span>
       </Link>
@@ -35,7 +31,7 @@ const Main = props => {
       <Col>
       <Link to="/cheesecake">
       <span className="button" className="button">
-      <img src={carrot} alt="cheesecake" className="d-block w-100"/>
+      <img src={IMAGES.carrot} alt="cheesecake" className="d-block w-100"/>
       <span className="category">Cheesecake</span>
       </span>
       </Link>
@@ -43,7 +39,7 @@ const Main = props => {
       <Col>
       <Link to="/tarts">
       <span className="button" className="button">
-      <img src={carrot} alt="tarts" className="d-block w-100"/>
+      <img src={IMAGES.carrot} alt="tarts" className="d-block w-100"/>
       <span className="category">Tarts</span>
       </span>
       </Link>
@@ -51,7 +47,7 @@ const Main = props => {
       <Col>
       <Link to="/tarts">
       <span className="button" className="button">
-      <img src={carrot} alt="minitarts" className="d-block w-100"/>
+      <img src={IMAGES.carrot} alt="minitarts" className="d-block w-100"/>
       <span className="category">Mini Tarts</span>
       </span>
       </Link>
@@ -59,7 +55,7 @@ const Main = props => {
       <Col>
       <Link to="/entremets"> 
       <span className="button" className="button">
-      <img src={carrot} alt="entremets" className="d-block w-100"/>
+      <img src={IMAGES.carrot} alt="entremets" className="d-block w-100"/>
       <span className="category">Entremets</span>
       </span>
       </Link>

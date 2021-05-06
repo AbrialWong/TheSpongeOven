@@ -40,3 +40,5 @@ Special thanks to:-
 2) https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/
 
 3) https://medium.com/swlh/import-components-in-react-like-a-pro-b1340cb76a1b (Barrel Pattern)
+
+4) https://www.youtube.com/watch?v=gEMAZSO85KY (Multiple Image in one import)
