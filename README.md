@@ -11,10 +11,10 @@ This is the e-commerce site for The Sponge Oven.
 <b> Step 2: Change directory to ecommerce-site</b><br>
 `cd ecommerce-site`
 
-<b> Step 2: Download the missing dependencies</b><br>
+<b> Step 3: Download the missing dependencies</b><br>
 `npm install or npm i`
 
-<b> Step 3: Run the project </b><br>
+<b> Step 4: Run the project </b><br>
   `npm start`
 
 ## Output
