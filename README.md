@@ -8,6 +8,9 @@ This is the e-commerce site for The Sponge Oven.
 <b> Step 1   : git clone/download this project</b> <br>
 ` git clone https://github.com/AbrialWong/TheSpongeOven.git` 
 
+<b> Step 2: Change directory to ecommerce-site</b><br>
+`cd ecommerce-site`
+
 <b> Step 2: Download the missing dependencies</b><br>
 `npm install or npm i`
 
@@ -23,8 +26,6 @@ This is the e-commerce site for The Sponge Oven.
 ## Authors
 
 <a href="">Abrial Wong</a>
-
-  
 
 ## Copyright
 
