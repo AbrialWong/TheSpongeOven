@@ -3,16 +3,8 @@ import {Link} from "react-router-dom";
 
 import "./styles.scss";
 
-// // External import files
-// import "@components/libraries/external/import-libraries.js";
-
-// // Internal import files
-// import "@components/libraries/internal/import-libraries.js";
-
 // import for React-Bootstrap Libraries
-import Carousel from "react-bootstrap/Carousel";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import {Carousel,Row,Col} from "react-bootstrap";
 
 // import for images
 import carrot from "./../../asserts/carrot.jpg";

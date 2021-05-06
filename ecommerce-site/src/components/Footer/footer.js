@@ -3,21 +3,11 @@ import React from "react";
 // stylesheet
 import "./styles.scss";
 
-// // External import files
-// import "@components/libraries/external/import-libraries.js";
-
-// // Internal import files
-// import "@components/libraries/internal/import-libraries.js";
-
 import { Input } from 'semantic-ui-react';
 
 // React Bootstrap
-import Container from "react-bootstrap/Container";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+import {Container, Col, Row} from "react-bootstrap";
 
-// // image
-// import category from "@asserts/category.jpg";
 
 const Footer = (props) => {
   return (

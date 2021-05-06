@@ -38,3 +38,5 @@ Special thanks to:-
 1) https://www.digitalocean.com/community/tutorials/react-server-side-rendering
 
 2) https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/
+
+3) https://medium.com/swlh/import-components-in-react-like-a-pro-b1340cb76a1b (Barrel Pattern)

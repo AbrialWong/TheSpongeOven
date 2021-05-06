@@ -3,9 +3,7 @@ import React, { Component } from "react";
 import "./../Registration/styles.scss";
 
 // React Bootstrap
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import {Col, Row} from 'react-bootstrap';
 
 //image
 import register from "./../../asserts/register.jpg";
@@ -26,7 +24,7 @@ class Registration extends Component {
 
       <Row>
     <Col>
-    <img src={register} className="header"/>
+    <img src={register} alt="register" className="header"/>
     </Col>
     </Row>
     </div>
