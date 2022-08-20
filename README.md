@@ -27,6 +27,9 @@ This is the e-commerce site for The Sponge Oven.
 
 <a href="">Abrial Wong</a>
 
+## Language/Technology used
+HTML, CSS, SCSS, React, React-bootstrap
+
 ## Copyright
 
 All images and details used in this project belongs to <a href="https://github.com/AbrialWong">Abrial Wong</a>. Do not mis-used it in any way or delete away this file. Thank you.
