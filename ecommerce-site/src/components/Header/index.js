@@ -14,9 +14,10 @@ import { Burger, Menu } from "./Navbar/left-Navbar/index";
 //imports for sliders
 import ProductSliders from "./../Slider/slider"; 
 
-const Header = (props) => {
+export const Header = ()  => {
   const [open, setOpen] = useState(false);
   return (
+    //original code
     <div>
       <Nav className="navbar fixed-top">
         <Nav.Item>
@@ -47,8 +48,10 @@ const Header = (props) => {
       {/* <Home /> */}
       
     </div>
+    // <>
+    // header here
+    // </>
   );
 }; // function components
 
-export default Header;
 

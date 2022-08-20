@@ -9,7 +9,7 @@ import { Input } from 'semantic-ui-react';
 import {Container, Col, Row} from "react-bootstrap";
 
 
-const Footer = (props) => {
+export const Footer = ({props}) => {
   return (
     <div>
       <hr />
@@ -77,5 +77,3 @@ const Footer = (props) => {
     </div>
   );
 };
-
-export default Footer;

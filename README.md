@@ -28,7 +28,7 @@ This is the e-commerce site for The Sponge Oven.
 <a href="">Abrial Wong</a>
 
 ## Language/Technology used
-HTML, CSS, SCSS, React, React-bootstrap
+HTML, React, CSS, SCSS, React-Router-DOM, React-Bootstrap, styled-components, Semantic UI, Javascript, Bootstrap.
 
 ## Copyright
 

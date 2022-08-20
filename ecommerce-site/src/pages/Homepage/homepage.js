@@ -4,12 +4,12 @@ import React from "react";
 import "./../Homepage/styles.scss";
 
 //pages
-import Main from "./../../components/Main/index.js";
+// import Main from "./../../components/Main/index.js";
 
 const Home = (props) => {
   return (
     <div className="homepage">
-        <Main />
+        {/* <Main /> */}
       </div>
      
   );

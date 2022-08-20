@@ -10,7 +10,7 @@ import {Container,Col,Row} from 'react-bootstrap';
 // image
 import IMAGES from "./../../asserts/index.js";
 
-const Main = props => {
+export const Main = () => {
   return (
     <div>
     <Row>
@@ -22,7 +22,7 @@ const Main = props => {
     <Row>
       <Col>
       <Link to="/bread">
-      <span className="button" className="button">
+      <span className="button">
       <img src={IMAGES.carrot} alt="bread" className="d-block w-100"/>
       <span className="category">Bread</span>
       </span>
@@ -30,7 +30,7 @@ const Main = props => {
       </Col>
       <Col>
       <Link to="/cheesecake">
-      <span className="button" className="button">
+      <span className="button">
       <img src={IMAGES.carrot} alt="cheesecake" className="d-block w-100"/>
       <span className="category">Cheesecake</span>
       </span>
@@ -38,7 +38,7 @@ const Main = props => {
       </Col>
       <Col>
       <Link to="/tarts">
-      <span className="button" className="button">
+      <span className="button">
       <img src={IMAGES.carrot} alt="tarts" className="d-block w-100"/>
       <span className="category">Tarts</span>
       </span>
@@ -46,7 +46,7 @@ const Main = props => {
       </Col>
       <Col>
       <Link to="/tarts">
-      <span className="button" className="button">
+      <span className="button">
       <img src={IMAGES.carrot} alt="minitarts" className="d-block w-100"/>
       <span className="category">Mini Tarts</span>
       </span>
@@ -54,7 +54,7 @@ const Main = props => {
       </Col>
       <Col>
       <Link to="/entremets"> 
-      <span className="button" className="button">
+      <span className="button">
       <img src={IMAGES.carrot} alt="entremets" className="d-block w-100"/>
       <span className="category">Entremets</span>
       </span>
@@ -67,5 +67,4 @@ const Main = props => {
   );
 };
 
-export default Main;
 

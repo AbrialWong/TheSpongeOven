@@ -1,44 +1,29 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
+import { makeStyles } from "@material-ui/core";
 
 // stylesheet
 import "./default.scss";
 
-// layouts
-import MainLayout from "./../src/layout/mainLayout.js";
-
 // pages
-import Home from "./pages/Homepage/homepage.js";
-import Registration from "./pages/Registration/registration.js";
+import {Registration} from "./pages/Registration/registration.js";
+import {Header} from "./components/Header/index";
+import {Main} from "./components/Main/index";
+import {Footer} from "./components/Footer/footer";
+import {Copyright} from "./components/Copyright/copyright";
 
 export const App = () => {
   return (
-    // original code 
-    // <div className="App">
-    //   <Switch>
-    //     <Route
-    //       exact
-    //       path="/"
-    //       render={() => (
-    //         <MainLayout>
-    //           <Home />
-    //         </MainLayout>
-    //       )}
-    //     />
-    //     <Route
-    //       path="/registration"
-    //       render={() => (
-    //         <MainLayout>
-    //           <Registration />
-    //         </MainLayout>
-    //       )}
-    //     />
-    //   </Switch>
-    // </div>
-    <>
-      <div>navigation</div>
-      <div>routing</div>
-      <div>footer</div>
+    <> 
+      <Header/>
+      <div>
+        <Switch>
+          <Route path="/" component={Main}/>
+          {/* <Route path="/registration" component={Registration}/> */}
+        </Switch>
+      </div>
+      <Footer/>
+      <Copyright/>
     </>
   );
 }
