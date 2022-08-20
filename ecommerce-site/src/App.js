@@ -11,30 +11,35 @@ import MainLayout from "./../src/layout/mainLayout.js";
 import Home from "./pages/Homepage/homepage.js";
 import Registration from "./pages/Registration/registration.js";
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <Switch>
-        <Route
-          exact
-          path="/"
-          render={() => (
-            <MainLayout>
-              <Home />
-            </MainLayout>
-          )}
-        />
-        <Route
-          path="/registration"
-          render={() => (
-            <MainLayout>
-              <Registration />
-            </MainLayout>
-          )}
-        />
-      </Switch>
-    </div>
+    // original code
+    // <div className="App">
+    //   <Switch>
+    //     <Route
+    //       exact
+    //       path="/"
+    //       render={() => (
+    //         <MainLayout>
+    //           <Home />
+    //         </MainLayout>
+    //       )}
+    //     />
+    //     <Route
+    //       path="/registration"
+    //       render={() => (
+    //         <MainLayout>
+    //           <Registration />
+    //         </MainLayout>
+    //       )}
+    //     />
+    //   </Switch>
+    // </div>
+    <>
+      <div>navigation</div>
+      <div>routing</div>
+      <div>footer</div>
+    </>
   );
 }
 
-export default App;
