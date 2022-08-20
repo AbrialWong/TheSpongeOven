@@ -36,7 +36,6 @@ export const App = () => {
     //   </Switch>
     // </div>
     <>
-    testing
       <div>navigation</div>
       <div>routing</div>
       <div>footer</div>
