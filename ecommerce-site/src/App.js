@@ -13,7 +13,7 @@ import Registration from "./pages/Registration/registration.js";
 
 export const App = () => {
   return (
-    // original code
+    // original code 
     // <div className="App">
     //   <Switch>
     //     <Route
@@ -36,6 +36,7 @@ export const App = () => {
     //   </Switch>
     // </div>
     <>
+    testing
       <div>navigation</div>
       <div>routing</div>
       <div>footer</div>
